@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Паспорт</title>
+</head>
+
+<body bgcolor="F5F5DC">
+
+  <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method='get' target='_self'>
+<h1 align="center">Паспорт</h1>
+
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/KZepassport.jpg/273px-KZepassport.jpg">
+</p>
+
+<p align="center">
+    <img height="400px" src="../image_library/KAZ_passport_2.jpg">
+</p>
+
+<p>
+
+    <table align="center" width="55%">
+    <tr>
+        <th rowspan="2">ПАСПОРТ/PASSPORT</th>
+        <th>TYPE</th>
+        <th>CODE OF STATE</th>
+        <th>PASSPORT No.</th>
+    </tr>
+    <tr align="center">
+        <td>P</td>
+        <td>KAZ</td>
+        <td><input type="text" name="number" size="8"></td>
+    </tr>
+    </table>  
+</p>
+
+<p>
+ <table align="center" width="50%">
+    <tr>
+    <td rowspan="14"><img hspace="10px" vspace="0px" height="200px" src="./pic.jpg"></td>
+        <td><b>SURNAME/ФАМИЛИЯ</b></td>
+        <td></td>
+        <td></td>
+    </tr>
+     <tr>
+        <td><input type="text" size="10" name="surname" placeholder="Латиница">
+        <br><input type="text" size="10" name="surname" placeholder="Кириллица"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><b>GIVEN NAME/ИМЯ</b></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input type="text" size="10" name="name" placeholder="Латиница">
+        <br><input type="text" size="10" name="name" placeholder="Кириллица"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><strong> NATIONALITY/НАЦИОНАЛЬНОСТЬ</strong></td>
+        <td><b>SEX/ПОЛ</b></td>
+        <td><b>ID No.</b></td>
+    </tr>
+     <tr>
+        <td><input type="text" size="17" name="motherland" placeholder="СТРАНА ЛАТИНИЦЕЙ"></td>
+        <td><select name="sex">
+            <OPTION value="Female">F</OPTION> 
+            <OPTION value="Male">M</OPTION> 
+            </select></td>
+        <td><input type="text" size="9" name="id"></td>
+     </tr>
+      <tr>
+        <td><b>DATE OF BIRTH/ДАТА РОЖДЕНИЯ</b></td>
+        <td colspan="2"><b>PLACE OF BIRTH/МЕСТО РОЖДЕНИЯ</b></td>
+       </tr>
+       <tr>
+        <td><input type="date" size="9" name="date_of_birth"></td>
+        <td colspan="2"><input type="text" size="17" name="motherland" placeholder="СТРАНА ЛАТИНИЦЕЙ"></td>
+       </tr>
+       <tr>
+        <td><b>DATE OF ISSUE/ДАТА ВЫДАЧИ</b></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input type="date" size="9" name="date_of_issue"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>DATE OF EXPIRY/ДАТА ИСТЕЧЕНИЯ СРОКА</b></td>
+        <td><b>ПОДПИСЬ</b></td>
+    </tr>
+      <tr>
+        <td colspan="2"><input type="date" size="9" name="date_of_expiry"></td>
+        <td rowspan="2"><input type="file" size="5" name="sign"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>AUTHORITY/ОРГАН ВЫДАЧИ</b></td>
+        <td></td>
+    </tr>
+     <tr>
+        <td colspan="2">THE MINISTRY OF INTERNAL AFFAIRS</td>
+        <td></td>
+    </tr>
+    </table>
+    
+<!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+        <p>Название файла: <input type="tехt" name="000_file_name" value="g01_Tonkoshtan.txt">
+            <br>Тип записи в файл:<select name="010_mode">
+        <OPTION value="a">a - дозаписать в файл</OPTION> 
+        <OPTION value="w">w - очисить файл и записать в файл</OPTION> 
+        </select>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="3"></p>
+        <p> <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+</html>
